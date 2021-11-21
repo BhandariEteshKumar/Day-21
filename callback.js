@@ -21,8 +21,8 @@ setTimeout(function () {
                     counter.innerText = "Counter : 10";
                     setTimeout(function () {
                       counter.innerText = "Happy Independence day";
-                      counter.style.color =
-                        "liner-gradient(orange,white,green)";
+                      document.getElementById("image").style =
+                        "visibility: visible";
                     }, 1000);
                   }, 1000);
                 }, 1000);
